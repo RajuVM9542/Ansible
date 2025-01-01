@@ -4,7 +4,7 @@
   tasks: 
   - name: install apache2
     apt:
-      name: "{{mywebpackonubuntu}}"
+      name: "{{myapache}}"
       state: present
 
   - name: install git 
