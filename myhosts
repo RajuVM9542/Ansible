@@ -4,5 +4,5 @@
 
 
 [vars:var]
-mygit= git11
+mygit= git
 mytree= tree
