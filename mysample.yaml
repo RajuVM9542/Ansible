@@ -20,6 +20,6 @@
 
   - name: debug
     debug:
-      msg: {{myresult}}  
+      msg: "{{myresult}}" 
 
 
