@@ -6,9 +6,12 @@
     apt:
       name: "{{mygit}}"
       state: present
+    when: ansible_os_family =="Debian"  
       
   - name: install tree
     apt:
       name: "{{mytree}}"    
       state: present
+    when: ansible_os_family !="Debian"
+
 
