@@ -2,8 +2,3 @@
 10.4.0.5
 10.4.0.4
 
-
-[mywebserver:vars]
-var=value
-mygit= git
-mytree= tree

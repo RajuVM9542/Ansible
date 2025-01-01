@@ -2,6 +2,11 @@
 - hosts: mywebserver
   become: yes
   tasks: 
+  - name: install apache2
+    apt:
+      name: "{{mywebpackonubuntu}}"
+      state: present
+
   - name: install git 
     apt:
       name: "{{mygit}}"
