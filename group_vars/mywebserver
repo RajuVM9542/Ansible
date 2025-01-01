@@ -1,0 +1,6 @@
+---
+
+var: value
+
+myapache: apache2 
+mygit: git 
