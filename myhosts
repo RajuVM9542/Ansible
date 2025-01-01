@@ -2,3 +2,7 @@
 10.4.0.5
 10.4.0.4
 
+
+[vars:var]
+mygit= git
+mytree= tree

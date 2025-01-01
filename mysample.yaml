@@ -4,12 +4,11 @@
   tasks: 
   - name: install git 
     apt:
-      name: git
-      state: absent
+      name: "{{mygit}}"
+      state: present
       
   - name: install tree
     apt:
-      name: tree    
-      state: absent
+      name: "{{mytree}}"    
+      state: present
 
-      
